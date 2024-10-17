@@ -16,8 +16,5 @@ COPY . .
 # Step 6: Build the app
 RUN yarn build
 
-# Step 7: Expose port 3000 (React app default port)
-EXPOSE 3000
-
 # Step 8: Start the app
 CMD ["yarn", "vite", "--host"]
