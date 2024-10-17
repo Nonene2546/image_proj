@@ -79,6 +79,7 @@ const App = () => {
         <select id="model-select" value={modelName} onChange={handleModelChange}>
           <option value="cyolov9t">YOLOv9 Tiny</option>
           <option value="cyolov8n">YOLOv8 Nano</option>
+          <option value="stm32">YOLOv9? STM32</option>
         </select>
 
       <div className="content">

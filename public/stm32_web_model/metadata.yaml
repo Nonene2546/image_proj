@@ -1,0 +1,15 @@
+description: Ultralytics YOLOv9-t model trained on /content/datasets/data.yaml
+author: Ultralytics
+date: '2024-10-17T16:53:58.827533'
+version: 8.3.15
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 64
+task: detect
+batch: 1
+imgsz:
+- 128
+- 128
+names:
+  0: fresh
+  1: rotten
