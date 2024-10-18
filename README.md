@@ -1,3 +1,4 @@
+<pre>
 ไฟล์สำหรับ train/test yolo คือ YOLO.ipynb
 
 สำหรับ webserver สามารถ clone repo 
@@ -8,3 +9,4 @@ yarn start
 
 running via docker
 docker compose up --build -d
+</pre>
